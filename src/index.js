@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+var number = window.prompt("Enter board size: ");
+
 function Square(props) {
     return (
         <button className="square" onMouseOver={props.onMouseOver}>
@@ -13,7 +15,9 @@ function Square(props) {
 class Board extends React.Component {
 
 
-    static numberOfRows = 40;
+
+
+    static numberOfRows = number;
     static boardSize = (Board.numberOfRows*Board.numberOfRows);
 
     constructor(props) {
