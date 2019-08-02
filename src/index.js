@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-var number = window.prompt("Enter board size: ");
+var number = window.prompt("Enter board size: (10-50)");
 
 function Square(props) {
     return (
