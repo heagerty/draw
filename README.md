@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4a072246-ac3c-4b24-ab7a-54980d2f0dd3/deploy-status)](https://app.netlify.com/sites/flamboyant-mcclintock-19e06e/deploys)
 
-###Draw
-A basic drawing app written in React.
+# Draw
+### A basic drawing app written in React.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
